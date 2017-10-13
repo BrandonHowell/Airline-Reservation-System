@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        Plane airCraft1 = new Plane("delta");
+        Plane airCraft1 = new Plane("Delta Air Lines, Inc.");
 
         Airline delta = new Airline();
         delta.setName("Delta Air Lines, Inc.");
