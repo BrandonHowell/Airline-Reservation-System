@@ -28,7 +28,7 @@ public class Main {
         passenger1.addFlight(new Trip(flight1, "12A"));
         passenger1.addFlight(new Trip(flight2, "15E"));
 
-        passenger1.getTripInfo();
+        Itinerary.printItinerary(passenger1);
 
     }
 
